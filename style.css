@@ -506,7 +506,7 @@ header .header .nav__right ul {
 .schedule-container {
   overflow: auto;
   -webkit-user-drag: element;
-  cursor: url('img/head.png'), auto;
+  cursor: pointer;
 }
 .schedule-container h1 {
   font-size: 4rem;
@@ -606,7 +606,7 @@ header .header .nav__right ul {
   font-size: 1.4rem;
   margin-bottom: 2rem;
   padding: 1.6rem;
-  cursor: url('img/head.png'), auto;
+  cursor: pointer;
 }
 .guide-slot_card:hover {
   border-color: hsl(0, 0%, 70%);
