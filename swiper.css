@@ -1,0 +1,59 @@
+.equipe .swiper {
+  width: 100%;
+  height: 100%;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.equipe .swiper::-webkit-scrollbar {
+  display: none;
+}
+.equipe .swiper, .equipe swiper-container {
+  overflow-x: unset !important;
+}
+.equipe .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.equipe .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: 18px !important;
+}
+
+.logos .swiper {
+  width: 100%;
+  height: 100%;
+}
+.logos .swiper::-webkit-scrollbar {
+  display: none;
+}
+.logos .swiper, .logos swiper-container {
+  overflow-x: unset !important;
+}
+.logos .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #343434 !important;
+}
+.logos .swiper-slide .logo {
+  background: #343434;
+}
+.logos .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=swiper.css.map */
