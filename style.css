@@ -138,7 +138,7 @@ header .header .nav__right ul {
   }
 }
 .hero__banner .overlay .botoes .btn__comece {
-  background: #FF057D;
+  background: #120d2a;
   padding: 20px 35px;
   display: flex;
   align-items: center;
@@ -148,7 +148,7 @@ header .header .nav__right ul {
   transition: ease-in-out 320ms;
 }
 .hero__banner .overlay .botoes .btn__comece:hover {
-  box-shadow: 0px 0px 10px rgb(255, 5, 125);
+  box-shadow: 0px 0px 10px rgb(53, 39, 124);
   transform: scale(1.1);
 }
 .hero__banner .overlay .botoes .btn__comece i {
@@ -165,8 +165,8 @@ header .header .nav__right ul {
   border: 2px solid #FFF;
 }
 .hero__banner .overlay .botoes .btn__saiba__mais:hover {
-  border: 2px solid #FF057D;
-  background: #FF057D;
+  border: 2px solid #120d2a;
+  background: #120d2a;
   box-shadow: 0px 0px 10px rgb(255, 5, 125);
   transform: scale(1.1);
 }
@@ -208,12 +208,13 @@ header .header .nav__right ul {
   content: "";
   width: 100px;
   height: 100px;
-  background: #FF057D;
+  background: #120d2a;
   position: absolute;
   top: 0;
   left: -13px;
   z-index: 1;
   transform: rotate(-15deg);
+  border-radius: 5%;
 }
 .bem-vindo .texto h1 {
   color: #FFF;
@@ -259,6 +260,7 @@ header .header .nav__right ul {
 .bem-vindo .img img {
   max-width: 100%;
   height: auto;
+  border-radius: 3%;
 }
 
 .nossa-equipe {
@@ -286,15 +288,31 @@ header .header .nav__right ul {
 .nossa-equipe .equipe .jogador {
   width: 100%;
   height: 250px;
-  background: #FF057D;
+  background: #120d2a;
   position: relative;
   border-radius: 10px;
   display: flex;
   justify-content: center;
 }
+.nossa-equipe .equipe .jogador .custom-link{
+  color: inherit;
+  text-decoration: none; 
+  cursor: pointer;
+}
+.nossa-equipe .equipe .jogador .twitchlogo{
+  position: absolute;
+  top: 16px;
+  left: 23px;
+  width: 13%;
+}
+
 .nossa-equipe .equipe .jogador img {
   position: absolute;
   top: -75px;
+}
+.nossa-equipe .equipe .jogador .azeredologo{
+  top: -50px;
+
 }
 .nossa-equipe .equipe .jogador .informacoes {
   position: absolute;
@@ -361,7 +379,7 @@ header .header .nav__right ul {
   color: #FFF;
 }
 .noticia .overlay .tag {
-  background: #FF057D;
+  background: #120d2a;
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 4px;
@@ -488,7 +506,7 @@ header .header .nav__right ul {
 .schedule-container {
   overflow: auto;
   -webkit-user-drag: element;
-  cursor: grab;
+  cursor: url('img/head.png'), auto;
 }
 .schedule-container h1 {
   font-size: 4rem;
@@ -533,7 +551,7 @@ header .header .nav__right ul {
   background: linear-gradient(to right, #eb3349, #f45c43);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} /* Texto do calendário - 8 de agosto*/
 
 .schedule-stage:nth-child(3) > .schedule-stage__title > h3 {
   background: red;
@@ -588,7 +606,7 @@ header .header .nav__right ul {
   font-size: 1.4rem;
   margin-bottom: 2rem;
   padding: 1.6rem;
-  cursor: pointer;
+  cursor: url('img/head.png'), auto;
 }
 .guide-slot_card:hover {
   border-color: hsl(0, 0%, 70%);
